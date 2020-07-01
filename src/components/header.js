@@ -14,7 +14,7 @@ function Header() {
   `);
 
   return (
-    <header className="bg-teal-700">
+    <header className="bg-blue-700">
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
@@ -50,16 +50,17 @@ function Header() {
         <nav
           className={`${
             isExpanded ? `block` : `hidden`
-          } md:block md:flex md:items-center w-full md:w-auto`}
+            } md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
-            {
-              route: `/about`,
-              title: `About`,
-            },
+
             {
               route: `/contact`,
               title: `Contact`,
+            },
+            {
+              route: `/gallery`,
+              title: `Gallery`,
             },
           ].map((link) => (
             <Link

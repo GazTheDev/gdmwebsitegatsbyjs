@@ -5,13 +5,14 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
+    title: `GarethDaviesMedia`,
+    description: `Gareth Davies is a video producer and website designer based in Braintree, Essex and Swindon UK. `,
     author: `@taylorbryant`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
