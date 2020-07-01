@@ -11,7 +11,7 @@ function ContactPage() {
         title="Contact"
       />
       <section>
-        <form className="mx-auto md:w-1/2">
+        <form className="mx-auto md:w-1/2" netlify>
           <p className="mb-8 leading-loose">
             Feel free to contact me using the below form.
          
